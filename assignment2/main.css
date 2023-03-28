@@ -1,0 +1,91 @@
+.container
+{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.profile-pic
+{
+    
+    width: 200px;
+    /* height: 300px; */
+    line-height: 200px;
+    border: 3px  solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 26px;
+    margin-top: 24px;
+    
+    
+}
+.profile
+{
+    margin-left:  78px ;
+    font-family: Arial;
+}
+h1
+{
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    height: 5px;
+    font-size: 468%;
+    letter-spacing: 2px;
+    text-shadow: 1px 7px 8px grey;
+    font-weight:400; 
+}
+.profile-info
+{
+    margin-top: 134px;
+    font-size: 153%;
+    letter-spacing: 0.5px;
+}
+p
+{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.address
+{
+    margin-inline-start: 107px;
+    margin-inline-end: 0px;
+}
+.report-table
+{
+    margin-top: 41px;
+    margin-left: 30px;
+    
+}
+table,td{
+    height:50px;
+    width: 900px;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+td{
+    font-family: Arial;
+    font-size: 153%;
+    letter-spacing: 0.5px;
+    vertical-align:text-top;
+    padding-left: 8px;
+    padding-top: 8px;
+    
+}
+.lists
+{
+    margin-top: 20px;
+    margin-left: 44px;
+    font-family: Arial;
+    font-size: 153%;
+    letter-spacing: 0.5px;
+}
+ul{
+    margin-top: 0px;
+}

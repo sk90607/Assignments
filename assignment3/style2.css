@@ -1,0 +1,64 @@
+header{
+    display: inline-flex;
+    border: 0px;
+    align-items: center;
+    /* width: 99.49%; */
+}
+.logo
+{
+    
+    width: 32.5px;
+    line-height: 32.5px;
+    border: 2px  solid black;
+    border-radius: 50%;
+    font-size: 8.25px;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: -6px;
+    margin-right: 7.5px;
+    margin-left: -2px;
+    margin-top: -10px;
+    font-weight: 100px;  
+}
+h1
+{
+    font-size: 15px;
+    font-family: Arial;
+    text-shadow: 0px 0px 0px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-block-start: 0.4em;
+}
+aside{
+    display: none;
+}
+section
+{
+    margin-top: 20px;
+    float: right;
+    height: 484px;
+    border: 0px;
+    width: 100%;
+}
+.container1
+{
+    height:128px;
+    border: 3px  solid black;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+.container2
+{
+    height:311px;
+    border: 3px  solid black;
+    margin: 10px;
+}
+footer{
+    position:fixed;
+    margin: 10px;
+    margin-left: 6.5px;
+    height:100px;
+    border: 3px  solid black;
+    width: 90%;
+}
