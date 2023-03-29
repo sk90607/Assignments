@@ -47,7 +47,7 @@ section
     margin-right: 4px;
 }
 footer{
-    /* position:fixed; */
+    position:fixed;
     height:100px;
     bottom:8px;
     border: 3px  solid black;
