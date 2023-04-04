@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Let us fill this form</h1>
+    <div class="container">
+        <form id="my-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender:</label>
+            <label><input type="radio" id="male" name="gender" value="male" required>Male</label>
+            <label><input type="radio" id="female" name="gender" value="female" required>Female</label>
+
+            <label for="food">Favorite Food:</label>
+            <label><input type="checkbox" id="hamburger" name="food" value="hamburger">Hamburger</label>
+            <label><input type="checkbox" id="pizza" name="food" value="pizza">Pizza</label>
+            <label for="drink">Favorite Drink:</label>
+            <select id="drink" name="drink" multiple>
+                <option value="soda">Soda</option>
+                <option value="apple juice">Apple Juice</option>
+                <option value="glass of milk">Glass of Milk</option>
+                <option value="hot coffee">Hot Coffee</option>
+            </select>
+
+            <label for="other">Anything else:</label>
+            <textarea id="other" name="other"></textarea>
+
+            <button type="submit" id="save-btn">Save This</button>
+        </form>
+
+        <div class="details-container">
+            <h2>Details</h2>
+            <div id="details-list"></div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
