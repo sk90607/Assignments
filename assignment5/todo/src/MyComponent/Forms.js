@@ -10,12 +10,11 @@ export const Forms = React.memo((props) => {
       if(!title || !desc)
       {
           alert("Title or Description cannot be blank")
+          return
       }
-      else{
       props.addTodo(title,desc);
       setDesc("");
       setTitle("");
-      }
   }
   return (
     <form onSubmit={submit}>
